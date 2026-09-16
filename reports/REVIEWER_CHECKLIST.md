@@ -37,5 +37,8 @@ mở đúng chỗ đó được mà không cần hỏi lại.
 
 ## Hai câu kết luận
 
-- Lỗi lặp đi lặp lại nhiều nhất của bài này:
-- Nó là lỗi **thao tác** hay lỗi **guideline chưa rõ**?
+- Lỗi lặp đi lặp lại nhiều nhất của bài này: là cách quyết định visibility của hông và các keypoint bị che trong người nằm gọn giữa ảnh.
+
+- Nó là lỗi **thao tác** hay lỗi **guideline chưa rõ**?  
+
+Đây chủ yếu là vấn đề guideline chưa rõ, thể hiện qua chênh lệch left_hip 17 điểm phần trăm; các cảnh báo trái/phải ở train_02 và train_13 vẫn cần xác nhận trực quan trước khi kết luận là lỗi thao tác.
